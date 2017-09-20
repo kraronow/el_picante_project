@@ -1,0 +1,39 @@
+body {
+	background: #87191c;
+}
+
+head{
+	background-color: #363636;
+	background-repeat: no-repeat;
+	color: 363636;
+	font-family: Castellar;
+}
+
+h1{
+  font-family: Castellar;
+}
+
+p {
+    font-family: Candara;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: arial,sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}

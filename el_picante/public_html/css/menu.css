@@ -2,14 +2,26 @@ body {
 	background: #87191c;
 }
 
-header{
+head{
 	background-color: #363636;
 	background-repeat: no-repeat;
-	color: 87191c;
+	color: 363636;
 	font-family: Castellar;
 }
 
-nav ul {
+h1{
+  font-family: Castellar;
+}
+
+h2{
+  font-family: Castellar;
+}
+
+p {
+    font-family: Candara;
+}
+
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -18,11 +30,11 @@ nav ul {
   font-family: arial,sans-serif;
 }
 
-nav li {
+li {
   float: left;
 }
 
-nav li a {
+li a {
   display: block;
   color: white;
   text-align: center;
