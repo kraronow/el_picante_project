@@ -1,12 +1,10 @@
 body {
-	background: #f9e5af;
+	background: #cc1c2a;
 }
 
 header{
-	background-color: #931a2a;
-	 background-image: url("http://simpson.edu/wp-content/themes/simpson/assets/img/header-seal-desktop.png");
-	 background-repeat: no-repeat;
-	 color: #f9e5af;
+	background-color: #FFFFFF;
+	 color: #FFFFFF;
 	 font-family: Georgia, Palatino, serif;
 	 font-size: 60px;
 	 height: 75px;
@@ -15,12 +13,13 @@ header{
 
 section {
   background: #FFFFFF;
-  max-width: 800px;
+  max-width: 2000px;
   padding: 5px;
 }
 
 article {
   border-style: solid;
+  border-color: black;
   border-width: 5px;
   border-radius: 5px;
   margin: 5px;
@@ -35,7 +34,7 @@ p {
 h1 {
   font-size: 24px;
   font-family: arial,sans-serif;
-  color: rgb(147, 26, 42);
+  color: #FFFFFF;
   text-align: center;
 }
 
@@ -43,6 +42,13 @@ h2 {
   font-size: 20px;
   font-family: arial,sans-serif;
   color: rgb(147, 26, 42);
+}
+
+h3 {
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  color: #000000;
+  background-color: white;
 }
 
 .prerequisite {
@@ -71,17 +77,18 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #175a00;
   font-family: arial,sans-serif;
 }
 
 nav li {
   float: left;
+  font-weight: bold; 
 }
 
 nav li a {
   display: block;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
