@@ -9,7 +9,23 @@ head{
 	font-family: Castellar;
 }
 
+header{
+  background-color: 
+}
+
 h1{
+  font-family: Castellar;
+}
+
+table{
+  border-style: solid;
+  border-width: 15px;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 15px;
+}
+
+h2{
   font-family: Castellar;
 }
 
@@ -36,4 +52,17 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.prerequisite {
+  font-style: italic;
+}
+
+#para1{
+  text-align:left;
+  color:yellow;
+}
+
+li a:hover{
+  background-color: yellow;
 }
