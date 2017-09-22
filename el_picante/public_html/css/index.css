@@ -1,31 +1,35 @@
 body {
-	background: #87191c;
+  background: #87191c;
 }
 
-head{
+head {
 	background-color: #363636;
 	background-repeat: no-repeat;
-	color: 363636;
+	color: #363636;
 	font-family: Castellar;
 }
 
-header{
-  background-color: 
+article {
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
 }
 
-h1{
+table {
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+h1 {
   font-family: Castellar;
 }
 
-table{
-  border-style: solid;
-  border-width: 15px;
-  border-radius: 15px;
-  margin: 15px;
-  padding: 15px;
-}
-
-h2{
+h2 {
   font-family: Castellar;
 }
 
@@ -39,7 +43,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  font-family: arial,sans-serif;
+  font-family: Castellar;
 }
 
 li {
@@ -58,11 +62,11 @@ li a {
   font-style: italic;
 }
 
-#para1{
+#para1 {
   text-align:left;
   color:yellow;
 }
 
-li a:hover{
+li a:hover {
   background-color: yellow;
 }
