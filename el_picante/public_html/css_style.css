@@ -1,3 +1,5 @@
+/* --- Tag Selector --- */
+
 body {
 	background: #cc1c2a;
 }
@@ -15,11 +17,14 @@ section {
   background: #FFFFFF;
   max-width: 2000px;
   padding: 5px;
+  border-style: solid;
+  border-color: black;
 }
 
 article {
   border-style: solid;
   border-color: black;
+  background-color: white;
   border-width: 5px;
   border-radius: 5px;
   margin: 5px;
@@ -32,7 +37,7 @@ p {
 
 
 h1 {
-  font-size: 24px;
+  font-size: 34px;
   font-family: arial,sans-serif;
   color: #FFFFFF;
   text-align: center;
@@ -41,7 +46,8 @@ h1 {
 h2 {
   font-size: 20px;
   font-family: arial,sans-serif;
-  color: rgb(147, 26, 42);
+  color: #175a00;
+  text-decoration: underline;
 }
 
 h3 {
@@ -51,25 +57,28 @@ h3 {
   background-color: white;
 }
 
-.prerequisite {
+h4 {
+  font-size: 16px;
+  font-family: arial,sans-serif;
+  color: black;
+}
+
+/* --- Class Selector --- */
+.mealname {
   font-style: italic;
-  display: inline;
+  color: black;
 }
 
-.credits {
-  display: inline;
-  color: #800000;
+.locationtext {
+  color: white;
 }
 
-.embedded_skill {
-  display: inline;
-  color: #995c00;
+/* --- ID Selector --- */
+#contactnumber {
+  font-style: italic;
 }
 
-.offered {
-  display: inline;
-  color: #000080;
-}
+
 
 /* --- Nav Bar --- */
 nav ul {
