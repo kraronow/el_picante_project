@@ -6,9 +6,10 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-    <title>El Picante Sign Up </title>
+    <title>El Picante Sign Up</title>
 </head>
 
 <body>
@@ -58,12 +59,83 @@
       <h1 id="para1">Sign Up</h1>
   </header>
 
-  <article>
+  <article class="col-xs-4">
   <p>This is our sign up page for El Picante.</p>
   <p>If you want to ket newsletters, e-mails or updates about our specials sign up here.</p>
   <p>Follow the prompts below when you decide to register.</p>
   </article>
-
+<form class="form-horizontal">
+  <fieldset>
+    <legend>Register Here</legend>
+    <div class="form-group">
+      <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+      <div class="col-lg-10">
+        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Checkbox
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="textArea" class="col-lg-2 control-label">Tell Us About Yourself</label>
+      <div class="col-lg-10">
+        <textarea class="form-control" rows="3" id="textArea"></textarea>
+        <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-lg-2 control-label">Gender</label>
+      <div class="col-lg-10">
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+            Male
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+            Female
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="select" class="col-lg-2 control-label">Select Security Question</label>
+      <div class="col-lg-10">
+        <select class="form-control" id="select">
+          <option>1. What is your Dad's Name?</option>
+          <option>2. Where did you attend High School?</option>
+          <option>3. What was your first pet's name?</option>
+          <option>4. What was your paternal grandfathers name?</option>
+          <option>5. What state were you born in?</option>
+        </select>
+        <br>
+        <select multiple="" class="form-control">
+          <option></option>
+          <option></option>
+          <option></option>
+          <option></option>
+          <option></option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button type="reset" class="btn btn-default">Cancel</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
   <footer>
   <a href="index.html" class="btn btn-primary">Home</a>
   <p><p class="prerequisite">&copy;2017 Drew Cummings, El Picante logos and materials.</p>

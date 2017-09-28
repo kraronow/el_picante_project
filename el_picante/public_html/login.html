@@ -6,9 +6,10 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-    <title>El Picante Login </title>
+    <title>El Picante Login</title>
 </head>
 
 <body>
@@ -63,10 +64,35 @@
 <p>If you aren't a member you can click on the sign up link at the top and register today.</p>
 </article>
 
+<div class="form-group">
+      <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+      <div class="col-lg-10">
+        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        <div class="checkbox">
+        </div>
+        <div class="form-group">
+        <div class="col-lg-10 col-lg-offset-2">
+        <button type="reset" class="btn btn-default">Cancel</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+      </div>
+    </div>
+
   <footer>
   <a href="index.html" class="btn btn-primary">Home</a>
   <p><p class="prerequisite">&copy;2017 Drew Cummings, El Picante logos and materials.</p>
   </footer>
 
+<div class="alert alert-dismissible alert-info">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <strong>Heads up!</strong> If you do not have an account <a href="signup.html" class="alert-link">sign up here!</a>
+
+</div>
 </body>
 </html>
